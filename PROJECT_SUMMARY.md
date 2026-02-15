@@ -39,9 +39,23 @@
 10. Agent comparison reports - Milestone: Phase 2
 11. Cost optimization recommendations - Milestone: Phase 4
 
+## Project Board Setup (Manual Steps Required)
+Due to authentication limitations with the GitHub CLI project commands, the project board needs to be created manually:
+
+1. Navigate to https://github.com/atEverychance/openclaw-evals/projects
+2. Click "New project"
+3. Select "OpenClaw Evals" as the project name
+4. Add the following columns:
+   - Backlog
+   - Ready
+   - In Progress
+   - Review
+   - Done
+5. Set up automated workflows to move issues between columns based on status labels
+
 ## Next Recommended Actions
-1. Add labels to all issues
-2. Create GitHub project board with columns (Backlog, Ready, In Progress, Review, Done)
+1. Add labels to all issues (this also requires manual intervention due to API limitations)
+2. Manually create the project board as described above
 3. Set up automated workflows for issue states
 4. Add issue assignees where appropriate
 5. Create documentation for how to use and contribute to the framework
